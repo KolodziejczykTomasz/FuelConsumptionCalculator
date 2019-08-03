@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+  }
+  
+  #wrap {
+    background-color: rgba(0, 0, 0, 0.068);
+    width: 600px;
+    height: 100vh;
+    margin: 0 auto;
+    color: black;
+  }
+  
+  
+  #description p {
+    text-align: center;
+    padding: 50px 50px;
+    font-size: 1.3rem;
+  }
+  
+  #inputField {
+    display: block;
+    position: relative;  
+    height: 140px;
+    padding: 30px 20px;
+    
+  }
+  
+  #inputField input {
+    display: block;
+    text-align: center;
+    letter-spacing: 1.5px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    margin: 5px auto;
+  }
+  
+  #display {
+    display: block;
+    position: relative;
+    height: 120px;
+    margin-top: 40px;
+   text-align: center;
+    
+  }
+  
+  #display span {
+    display: inline;
+    text-align: center; 
+  }
+    
+  #button {
+    display: block;
+    position: relative;
+    height: 150px;
+  }
+  
+  #button button {
+    display: block;
+    top: 0;
+    left: 0;
+    width: 150px;
+    margin: auto;
+    padding: 15px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+    background-color: white; 
+    border-radius: 5%;
+    border-bottom: 3px solid olivedrab;
+  }
+  
+  #button button:hover {
+    border-bottom: 3px solid orangered;
+    letter-spacing: 3px;
+  }
